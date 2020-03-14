@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 
-.body {
-    font-family: 'monserrat', sans-serif;
+body {
+    font-family: 'montserrat', sans-serif;
     background-image: url('bg.jpg');
+    background-size: cover;
     background-position: top-center;
 }
 
@@ -17,7 +18,7 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
   }
 
-  .header {
+  header {
   display: flex;
   justify-content: center;
   align-items: center;
